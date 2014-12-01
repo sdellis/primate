@@ -1,0 +1,12 @@
+[
+    {
+        "age": 0, 
+        "id": "manifest1", 
+        "label": "Manifest One"
+    }, 
+    {
+        "age": 1, 
+        "id": "manifest2", 
+        "label": "Manifest Two"
+    }
+]

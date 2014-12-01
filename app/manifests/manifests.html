@@ -1,0 +1,6 @@
+<h2>{{collection.label}}</h2>
+<ul>
+  <li ng-repeat="manifest in collection.manifests">
+  	<a href="#/manifests/{{manifest['@id']}}">{{manifest.label}}</a>
+  </li>
+</ul>

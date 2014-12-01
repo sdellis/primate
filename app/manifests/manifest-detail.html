@@ -1,0 +1,17 @@
+<h1>{{manifest.label}}</h1>
+<h2>Table of Contents</h2>
+	<ul>
+		<li ng-repeat="sequence in manifest.sequences">
+			<h3>Sequence:{{sequence.label}}</h3>
+			<ol>
+				<li ng-repeat="canvas in sequence.canvases">
+					{{canvas.label}}
+				</li>
+			</ol>
+		</li>
+	</ul>
+<p>{{manifest.additionalFeatures}}</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
