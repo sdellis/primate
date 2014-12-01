@@ -1,3 +1,7 @@
+# PRIMATE 
+## Presentation Reader -- *Including Manifest, Annotation, and Text Editor*
+This project is a reference app for viewing and editing objects published with the [IIIF Presentation API](http://iiif.io/api/presentation/2.0/).  Leaving Angular-Seed README here for now since you will need these instructions to get it to turn over.
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
